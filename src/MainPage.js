@@ -22,7 +22,9 @@ class MainPage extends Component {
                       			"currentlyReading")
                       			.map(book => (
                       				<li key={book.id} >
-                      					<Books />
+                      					<Books
+                      					  book={book}
+                      					/>
                       				</li>
                       			))
                        }
@@ -39,7 +41,9 @@ class MainPage extends Component {
                       			"wantToRead")
                       			.map(book => (
                       				<li key={book.id} >
-                      					<Books />
+                      					<Books 
+                      					  book={book}
+                      					/>
                       				</li>
                       			))
                        }
@@ -56,7 +60,9 @@ class MainPage extends Component {
                       			"read")
                       			.map(book => (
                       				<li key={book.id} >
-                      					<Books />
+                      					<Books 
+                      					  book={book}
+                      					/>
                       				</li>
                       			))
                        } 
