@@ -18,12 +18,14 @@ class MainPage extends Component {
                     <ol className="books-grid">
                          {
                       	this.props.books
-                      		.filter(book  => book.shelf === 
+                      		.filter(book  => book.shelf ===
                       			"currentlyReading")
                       			.map(book => (
                       				<li key={book.id} >
                       					<Books
                       					  book={book}
+                      					  moveShelf={this.props.moveShelf}
+                                  currentShelf="currentlyReading"
                       					/>
                       				</li>
                       			))
@@ -37,12 +39,14 @@ class MainPage extends Component {
                     <ol className="books-grid">
                       {
                       	this.props.books
-                      		.filter(book  => book.shelf === 
+                      		.filter(book  => book.shelf ===
                       			"wantToRead")
                       			.map(book => (
                       				<li key={book.id} >
-                      					<Books 
+                      					<Books
                       					  book={book}
+                      					  moveShelf={this.props.moveShelf}
+                                  currentShelf="wantToRead"
                       					/>
                       				</li>
                       			))
@@ -56,16 +60,18 @@ class MainPage extends Component {
                     <ol className="books-grid">
                       	 {
                       	this.props.books
-                      		.filter(book  => book.shelf === 
+                      		.filter(book  => book.shelf ===
                       			"read")
                       			.map(book => (
                       				<li key={book.id} >
-                      					<Books 
+                      					<Books
                       					  book={book}
+                      					  moveShelf={this.props.moveShelf}
+                                  currentShelf="read"
                       					/>
                       				</li>
                       			))
-                       } 
+                       }
                     </ol>
                   </div>
                 </div>
