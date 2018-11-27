@@ -24,7 +24,7 @@ Project information can be found at [Udacity](https://www.udacity.com/)
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code.
 
 ### Additional Source Material referenced in completing this project
-[Sherman, Paul <em>A Simple React Router v4 Tutorial</em> Medium.com](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
+[Sherman, Paul <em>A Simple React Router v4 Tutorial</em> Medium.com](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)<br></br>
 [Maeva <em>Study Jam 21/07 - FEND P7 - My Reads</em>](https://youtu.be/i6L2jLHV9j8)
 
 
