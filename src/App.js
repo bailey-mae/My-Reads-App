@@ -33,7 +33,7 @@ moveShelf = (book, shelf) => {
         books={this.state.books}
         moveShelf={this.moveShelf}/>*/}
         <SearchPage />
-
+        moveShelf = {this.moveShelf}
       </div>
     )
   }
