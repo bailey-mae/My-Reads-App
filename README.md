@@ -10,12 +10,14 @@ FEND Udacity Project 7
 
 For the **MyReads Project** I used React to create a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. The project emphasized using React to build the application. An API server and client library were provided to persist information as you interact with the application.
 
+Markup : ![MyReadsApp screenshot](myreads.jpg "MyReads App")
+
 ## Running the Project:
 
-fork or clone the repository
-run npm install and npm start within the project
-
-View the project by opening localhost:3000 in your browser.
+*Fork or clone the repository from [Github](https://github.com/bailey-mae/reactnd-project-myreads-starter.git)
+*CD into the main branch of the project in terminal
+*Run npm install and npm start within the project
+*View the project by opening localhost:3000 in your browser.
 
 ## Resources:
 
