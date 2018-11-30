@@ -28,6 +28,7 @@ class SearchPage extends Component {
 		     } else {
 		   	this.setState({ searchedBooks: [] });
 	        }
+	    if(query !== this.state.query) return
         }
 
 	render () {
