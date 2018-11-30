@@ -10,7 +10,7 @@ FEND Udacity Project 7
 
 For the **MyReads Project** I used React to create a bookshelf app that allows you to select and categorize books you have read, are currently reading, or want to read. The project emphasized using React to build the application. An API server and client library were provided to persist information as you interact with the application.
 
-![MyReads App Screenshot](myreads.jpg?raw=true "MyReads App")
+![MyReads App Screenshot](myreads.jpg)
 
 ## Running the Project:
 
