@@ -10,19 +10,21 @@ import './App.css'
 class BooksApp extends React.Component {
   state = {
      books: []
-  }
+  };
 
   componentDidMount() {
     BooksAPI.getAll().then((books) => {
       this.setState({ books })
-    })
+    });
    }
 
   moveShelf = (book, shelf) => {
-    BooksAPI.update(book, shelf).then(BooksAPI.getAll().then((books) => {
-      this.setState({ books })
-    }));
-  }
+    BooksAPI.update(book, shelf).then(() => {
+      BooksAPI.getAll().then((books) => {
+        this.setState({ books: books })
+      });
+    });
+  };
 
   render() {
     return (
